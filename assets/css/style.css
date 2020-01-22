@@ -1,0 +1,43 @@
+    body {
+        background: black;
+    }
+
+    .container {
+        padding: 5%;
+    }
+
+    #clock {
+        position: relative;
+        background: url(../img/horlogeop.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: 15%;
+        width: 600px;
+        height: 600px;
+    }
+
+    #hourneedle {
+        position: absolute;
+        left: 44.8%;
+        top: 20.5%;
+        transform-origin: 48.5% 89%;
+    }
+
+    #minuteneedle {
+        position: absolute;
+        left: 46.8%;
+        top: 7.6%;
+        transform-origin: 56% 93%;
+    }
+
+    #secondneedle {
+        position: absolute;
+        left: 47.3%;
+        top: 4%;
+        transform-origin: 47% 75%;
+        display: block;
+    }
+
+    button {
+        height: 60px;
+    }
